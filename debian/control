@@ -51,7 +51,8 @@ Build-Depends: cdbs (>= 0.4.90~),
  ebtables,
  iptables,
  qemu-utils,
- libcgmanager-dev
+ libcgmanager-dev,
+ glusterfs-common
 Build-Conflicts: dpkg-dev (= 1.15.3)
 Homepage: http://libvirt.org
 Standards-Version: 3.9.4
@@ -141,3 +142,11 @@ Description: development files for the libvirt library
  .
  This package contains the header files and static libraries which are
  needed for developing the applications with libvirt.
+
+Package: libvirt-glusterfs
+Architecture: all
+Section: admin
+Depends: libvirt-bin (= ${binary:Version})
+Description: glusterfs support for libvirt metapackage
+ This package depends of the latest version of libvirt-bin
+ available with glusterfs support

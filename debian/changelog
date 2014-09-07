@@ -1,3 +1,10 @@
+libvirt (1.2.6-0ubuntu5~glusterfs0) trusty; urgency=medium
+
+  * Enabled glusterfs support
+  * Rebuild for aurex 14.04 trusty
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 07 Sep 2014 03:43:44 +0200
+
 libvirt (1.2.6-0ubuntu5) utopic; urgency=medium
 
   * cgroups-ignore-systemd-failure - fix incoming migration failures when

@@ -95,6 +95,8 @@ DEB_CONFIGURE_EXTRA_FLAGS :=     \
 	--with-apparmor		 \
 	--with-vbox \
     --without-firewalld \
+	--with-glusterfs \
+	--with-storage-gluster \
 	--with-packager-version="$(LIBVIRT_VERSION)"
 
 
