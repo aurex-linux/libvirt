@@ -1,3 +1,9 @@
+libvirt (1.2.6-0ubuntu5~glusterfs1) trusty; urgency=medium
+
+  * Set apropiate minimal version number in libcgmanager-dev Build-Depends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 07 Sep 2014 12:02:13 +0200
+
 libvirt (1.2.6-0ubuntu5~glusterfs0) trusty; urgency=medium
 
   * Enabled glusterfs support
